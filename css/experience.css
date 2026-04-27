@@ -1,0 +1,83 @@
+/* experience.css */
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 6px;
+  bottom: 0;
+  width: 1px;
+  background: var(--color-border);
+}
+
+.timeline-item {
+  display: flex;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+  position: relative;
+}
+
+.timeline-dot {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  background: var(--color-surface);
+  border: 2px solid var(--color-accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.timeline-dot-inner {
+  width: 8px;
+  height: 8px;
+  background: var(--color-accent);
+  border-radius: 50%;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.timeline-period {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-accent);
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.timeline-role {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  margin-bottom: 2px;
+  letter-spacing: -0.3px;
+}
+
+.timeline-company {
+  font-size: 14px;
+  color: var(--color-muted);
+  margin-bottom: 12px;
+}
+
+.timeline-bullets li {
+  font-size: 14px;
+  color: var(--color-muted);
+  padding: 4px 0 4px 18px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.timeline-bullets li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+  font-size: 12px;
+  top: 6px;
+}

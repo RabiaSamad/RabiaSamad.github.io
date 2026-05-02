@@ -248,7 +248,173 @@
   </section>
 
   <!-- RESEARCH EXPERIENCE -->
-  <section id="research" class="container">
+
+  <!-- RESEARCH SECTION WITH MULTIPLE FEATURED CARDS -->
+
+<section id="research" class="container">
+    <div class="section-label">Academic Contribution</div>
+    <h2 class="section-title">Research Experience</h2>
+
+    
+    <!-- FEATURED PROJECT 1: FYP -->
+    <article class="project-card featured">
+        <div class="project-card-left">
+            <div class="timeline-period">2019</div>
+            <div class="project-type">Final Year Project</div>
+            <div class="timeline-company">NUCES · Pakistan</div>
+            <h3 class="project-name">Classification of Liver Disease Using Neural Networks</h3>
+            
+            <ul class="timeline-bullets">
+                <li>Detecting early-stage liver cancer using Ultrasonic sensor and training the system using Neural Networks.</li>
+                <li>Used Arduino for data collection and preprocessing from ultrasonic sensors [JSN-SR04T (Ultrasonic sensor)].</li>
+                <li>Trained the Neural Network model to classify liver disease based on the collected data.</li>
+                <li>Collected and preprocessed a dataset from hospital records.</li>
+                <li>Evaluated the model's accuracy and robustness through extensive testing and validation.</li>
+                <li>Achieved promising results with an accuracy of 90%, demonstrating the potential of using ultrasonic sensors and neural networks for early liver disease detection.</li>
+            </ul>
+            <div class="project-tags">
+                <span class="tag">Neural Networks</span>
+                <span class="tag">Ultrasonic Sensors</span>
+                <span class="tag">Arduino</span>
+                <span class="tag">Data Collection</span>
+            </div>  
+            <div class="project-buttons">
+                <a href="https://github.com" target="_blank" class="github-btn" title="View on GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card-right">
+            <div class="project-pdf-container">
+                <div class="pdf-wrapper">
+                    <iframe 
+                        src="assets/ml-research.pdf#page=1" 
+                        class="project-pdf-embed"
+                        title="Project PDF Document"
+                    ></iframe>
+                </div>
+                <a href="assets/ml-research.pdf" target="_blank" class="pdf-full-view">
+                    <i class="fas fa-arrow-up-right"></i> View Full PDF
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- FEATURED PROJECT 2: Advanced Computer Architecture -->
+    <article class="project-card featured">
+        <div class="project-card-left">
+            <div class="timeline-period">2023</div>
+            <div class="project-type">Advanced Computer Architecture</div>
+            <div class="timeline-company">NUST · Pakistan</div>
+            <h3 class="project-name">Piplined RISCV Processor 32-bit with floating-point unit</h3>
+            
+            <ul class="timeline-bullets">
+                <li>Piplining of the RISCV Processor 32-bit - RV32I base ISA</li>
+                <li>Tested it on FPGA</li>
+                <li>Extended the functionality with floating point unit(FP_ADD, FP_SUB, FP_MULT, FP_DIV)</li>
+                <li>Implemented static scheduling with Data hazard detection and mitigation support(Forwarding and Stalling)</li>
+                <li>Implemented control hazard detection and mitigation support(Dynamic branch prediction-single bit)</li>
+            </ul>
+            
+            <div class="project-buttons">
+                <a href="https://github.com" target="_blank" class="github-btn" title="View on GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class=""project-tags">
+                <span class="tag">Computer Architecture</span>
+                <span class="tag">RISCV</span>
+                <span class="tag">FPGA</span>
+                <span class="tag">Pipelining</span>
+                <span class="tag">Hazard Mitigation</span>
+            </div>  
+        <div class="project-card-right">
+            <div class="project-pdf-container">
+                <div class="pdf-wrapper">
+                    <iframe 
+                        src="assets/nuces-degree.pdf#page=1" 
+                        class="project-pdf-embed"
+                        title="Project PDF Document"
+                    ></iframe>
+                </div>
+                <a href="assets/nuces-degree.pdf" target="_blank" class="pdf-full-view">
+                    <i class="fas fa-arrow-up-right"></i> View Full PDF
+                </a>
+            </div>
+        </div>
+    </article>
+
+
+    <!-- FEATURED PROJECT 3:Advanced Computer vision -->
+    <article class="project-card featured">
+        <div class="project-card-left">
+            <div class="timeline-period">2023</div>
+            <div class="project-type">Advanced Computer Vision</div>
+            <div class="timeline-company">NUST · Pakistan</div>
+            <h3 class="project-name">Hand Segmentation using Generalized Hough Transform</h3>
+            
+            <ul class="timeline-bullets">
+              <li>Implemented Generalized Hough Transform for hand segmentation</li>
+              <li>Generated bag of words for feature extraction</li>
+              <li>Used harris and SIFT keypoints for feature matching</li>
+              <li>Evaluated the model's accuracy and robustness through extensive testing and validation.</li>
+              <li> Result were promising with an accuracy of 85%.</li>
+            </ul>
+            <div class="project-tags">
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Hough Transform</span>
+                <span class="tag">Feature Extraction</span>
+                <span class="tag">Harris/SIFT</span>
+            </div>
+            <div class="project-buttons">
+                <a href="https://github.com" target="_blank" class="github-btn" title="View on GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card-right">
+            <div class="project-pdf-container">
+                <div class="pdf-wrapper">
+                    <iframe 
+                        src="assets/Hand_detection_using_Generalized_Hough_Transform.pdf#page=1" 
+                        class="project-pdf-embed"
+                        title="Project PDF Document"
+                    ></iframe>
+                </div>
+                <a href="assets/Hand_detection_using_Generalized_Hough_Transform.pdf" target="_blank" class="pdf-full-view">
+                    <i class="fas fa-arrow-up-right"></i> View Full PDF
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Optional: Regular smaller project cards (if you want mix of featured and regular) -->
+    <article class="project-card">
+        <h3 class="project-name">Comparative Analysis of AutoML</h3>
+        <!-- <p class="project-desc">You can mix featured cards with regular smaller cards if needed.</p> -->
+        <ul class="timeline-bullets">
+            <li>Conducted research on AutoML products and their applications</li>
+            <li>Found the most effective AutoML tools for different use cases</li>
+            <li>Evaluated the performance and usability of various AutoML platforms on various Datasets like Churn, Diabetes, Iris Flower, Boston House,Fashion-MNIST.</li>
+          </ul>
+          <div class="project-tags">
+                <span class="tag">AutoML</span>
+                <span class="tag">Comparative Analysis</span>
+                <span class="tag">Research</span>
+            </div>  
+        <div class="project-buttons">
+            <a href="https://github.com" target="_blank" class="github-btn">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </article>
+
+</section>
+
+  <!-- <section id="research" class="container">
     <div class="section-label">Academic Contribution</div>
     <h2 class="section-title">Research Experience</h2>
      <article class="project-card featured">
@@ -291,7 +457,46 @@
     
 
 
-      <div class="timeline-item">
+      <article class="project-card featured">
+        <div class="project-card-right">
+            <div class="timeline-period">2022</div>
+            <div class="project-type">Advanced Computer Vision</div>
+            <div class="timeline-company">NUST · Pakistan</div>
+            <h3 class="project-name">Hand Segmentation using Generalized Hough Transform</h3>
+            
+            <ul class="timeline-bullets">
+             <li>Conducted research in Computer Vision and Deep Learning, focusing on object detection and image segmentation</li>
+            <li>Implemented fine-tuned neural network architectures for real-world vision applications with 85%+ accuracy</li>
+            <li>Developed novel approaches in mobile robotics using sensor fusion and real-time processing</li>
+            <li>Published findings and participated in academic conferences and seminars</li>
+            </ul>
+            
+            <div class="project-buttons">
+                <a href="https://github.com" target="_blank" class="github-btn" title="View on GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-card-left">
+            <div class="project-pdf-container">
+                <div class="pdf-wrapper">
+                    <iframe 
+                        src="assets/Project ACA.pdf#page=1" 
+                        class="project-pdf-embed"
+                        title="Project PDF Document"
+                    ></iframe>
+                </div>
+                <a href="assets/Project ACA.pdf" target="_blank" class="pdf-full-view">
+                    <i class="fas fa-arrow-up-right"></i> View Full PDF
+                </a>
+            </div>
+        </div>
+    </article> -->
+
+
+
+      <!-- <div class="timeline-item">
         <div class="timeline-dot"><div class="timeline-dot-inner"></div></div>
         <div class="timeline-content">
           <div class="timeline-period">2022</div>
@@ -304,8 +509,8 @@
             <li>Published findings and participated in academic conferences and seminars</li>
           </ul>
         </div>
-      </div>
-
+      </div> -->
+<!-- 
       <div class="timeline-item">
         <div class="timeline-dot"><div class="timeline-dot-inner"></div></div>
         <div class="timeline-content">
@@ -339,7 +544,7 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <!-- SKILLS -->
   <section id="skills" class="container">
@@ -488,7 +693,7 @@
         </div>
         <div class="contact-item">
           <span class="contact-icon">📞</span>
-          <span class="contact-text"><a href="tel:+971508118865">+971 5081188657</a></span>
+          <span class="contact-text"><a href="tel:+971508118865">+971 508118657</a></span>
         </div>
         <div class="contact-item">
           <span class="contact-icon">💼</span>

@@ -46,6 +46,7 @@
   gap: 24px;
   align-items: start;
   flex-direction: unset;
+  margin-bottom: 10px;
 }
 
 .project-icon {
@@ -87,7 +88,7 @@
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 10px;
   margin-bottom: 6px;
 }
 

@@ -112,3 +112,167 @@
   color: white;
   transform: translateY(-2px);
 }
+
+
+
+/* ========================================
+   FEATURED PROJECT CARD LAYOUT
+   ======================================== */
+
+.project-card.featured {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: stretch;
+  padding: 28px;
+}
+
+.project-card-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.project-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100%;
+}
+
+/* ========================================
+   PDF CONTAINER & IFRAME
+   ======================================== */
+
+.project-pdf-container {
+  width: 100%;
+  height: 100%;
+  min-height: 550px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: all var(--transition-base);
+}
+
+.project-pdf-container:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: var(--color-accent);
+}
+
+/* Wrapper for PDF to fill available space */
+.pdf-wrapper {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+}
+
+.project-pdf-embed {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* ========================================
+   VIEW FULL PDF BUTTON
+   ======================================== */
+
+.pdf-full-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 16px;
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-top: 1px solid var(--color-border);
+  transition: all var(--transition-base);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.pdf-full-view:hover {
+  background: var(--color-accent);
+  color: white;
+  gap: 10px;
+}
+
+.pdf-full-view i {
+  font-size: 11px;
+  transition: transform var(--transition-base);
+}
+
+.pdf-full-view:hover i {
+  transform: translate(2px, -2px);
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablets: 1024px and below */
+@media (max-width: 1024px) {
+  .project-card.featured {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .project-pdf-container {
+    min-height: 450px;
+  }
+}
+
+/* Mobile: 768px and below */
+@media (max-width: 768px) {
+  .project-card.featured {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .project-pdf-container {
+    min-height: 400px;
+  }
+
+  .project-card-left {
+    gap: 16px;
+  }
+}
+
+/* Small Mobile: 480px and below */
+@media (max-width: 480px) {
+  .project-card.featured {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .project-pdf-container {
+    min-height: 350px;
+  }
+
+  .pdf-full-view {
+    padding: 12px 14px;
+    font-size: 12px;
+  }
+
+  .project-name {
+    font-size: 18px;
+  }
+
+  .timeline-bullets {
+    font-size: 13px;
+    gap: 8px;
+  }
+}

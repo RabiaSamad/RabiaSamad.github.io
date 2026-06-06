@@ -42,7 +42,7 @@
   });
 
   /* ── Active link highlight based on scroll position ── */
-  const sections = ['hero', 'projects', 'experience', 'skills', 'education', 'contact'];
+  const sections = ['hero', 'projects', 'experience', 'research', 'skills', 'education', 'contact'];
 
   function updateActiveLink() {
     let current = '';

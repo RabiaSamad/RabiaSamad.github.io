@@ -190,10 +190,6 @@
     margin-bottom: var(--space-sm);
   }
 
-  .project-image {
-    height: 200px;
-  }
-
   /* Experience */
   .timeline-item {
     padding-left: 20px;
@@ -448,15 +444,6 @@
     margin-bottom: 8px;
   }
 
-  .project-image {
-    height: 150px;
-  }
-
-  .project-badge {
-    font-size: 10px;
-    padding: 4px 8px;
-  }
-
   /* Experience & Timeline */
   .timeline-item {
     padding-left: 16px;
@@ -468,14 +455,6 @@
     height: 6px;
     left: -11px;
     top: 8px;
-  }
-
-  .role-title {
-    font-size: 13px;
-  }
-
-  .role-duration {
-    font-size: 11px;
   }
 
   /* Skills */
@@ -518,14 +497,6 @@
     height: 35px;
   }
 
-  .edu-degree {
-    font-size: 13px;
-  }
-
-  .edu-school {
-    font-size: 11px;
-  }
-
   /* Certifications */
   .certs-grid {
     grid-template-columns: 1fr;
@@ -561,14 +532,6 @@
     flex-direction: column;
     gap: 8px;
     padding: 12px 0;
-  }
-
-  .contact-label {
-    font-size: 11px;
-  }
-
-  .contact-value {
-    font-size: 12px;
   }
 
   /* Footer */

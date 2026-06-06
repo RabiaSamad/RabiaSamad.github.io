@@ -48,7 +48,6 @@
 
   /* ── Hero entrance animation ── */
   const heroElements = [
-    document.querySelector('.hero-tag'),
     document.querySelector('h1'),
     document.querySelector('.hero-bio'),
     document.querySelector('.hero-cta'),

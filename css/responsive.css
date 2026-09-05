@@ -265,8 +265,11 @@
 
   /* Contact */
   .contact-box {
-    grid-template-columns: 1fr;
     padding: 36px 28px;
+  }
+
+  .contact-body {
+    flex-direction: column;
   }
 
   .contact-item {
@@ -524,8 +527,11 @@
 
   /* Contact */
   .contact-box {
-    grid-template-columns: 1fr;
     padding: 24px 16px;
+  }
+
+  .contact-body {
+    flex-direction: column;
   }
 
   .contact-item {
